@@ -13,7 +13,7 @@ class Anagram
   def match(word_array)
     word_array.select do |word|
       (@word.split("").sort) == (word.split("").sort)
-      #splits the word
+      #splits the word and then sorts it in alphabetical order, placing the first character in the front 
       binding.pry 
     end 
   end 
