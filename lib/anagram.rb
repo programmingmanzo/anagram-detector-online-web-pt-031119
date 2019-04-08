@@ -14,7 +14,7 @@ class Anagram
     word_array.select do |word|
       (@word.split("").sort) == (word.split("").sort)
       #splits the word and then sorts it in alphabetical order, placing the first character in the front. This compares the word that's being iterated against the instance variable. 
-      binding.pry 
+      #binding.pry 
     end 
   end 
 end
