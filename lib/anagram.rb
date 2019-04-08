@@ -13,6 +13,7 @@ class Anagram
   def match(word_array)
     word_array.select do |word|
       (@word.split("").sort) == (word.split("").sort)
+      #splits the word
       binding.pry 
     end 
   end 
